@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicío de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 0px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .destaque {
+            background-color: chartreuse;
+        }
+
+        col.cnome {
+            background-color: chartreuse;
+        }
+
+        .verde {
+            background-color: rgb(51, 255, 0);
+        }
+
+        .purple {
+            background-color: rgb(119, 0, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    
+    <table>
+        <colgroup>
+        <col class="verde">
+        <col class="purple" span="2">
+        <col class="verde">
+        <col class="purple">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</td>
+            <th scope="col">Idade</td>
+            <th scope="col">Profissão</td>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Desenvolvedora</td>
+        </tr>
+
+        <tr>
+            <td>Nabyla</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Neurocientista</td>
+        </tr>
+
+        <tr>
+            <td>Roque</td>
+            <td>M</td>
+            <td>33</td>
+            <td>Apicultor</td>
+        </tr>
+
+        <tr>
+            <td>Zaion</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Analista de Dados</td>
+        </tr>
+
+        <tr>
+            <td>Cauã</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Egenheiro de Softwere</td>
+        </tr>
+
+        <tr>
+            <td>Carol</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Biomedica</td>
+        </tr>
+    </table>
+</body>
+</html>
